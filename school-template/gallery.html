@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Aurelia Heights School</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/variables.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Aurelia Heights</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="gallery">
+        <div class="container">
+            <h2>School Gallery</h2>
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="facilities">Facilities</button>
+                <button class="filter-btn" data-filter="students">Students</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="events">
+                    <img src="assets/images/event1.jpg" alt="School Event">
+                    <h3>Annual Sports Day</h3>
+                </div>
+                <div class="gallery-item" data-category="facilities">
+                    <img src="assets/images/facility1.jpg" alt="School Facility">
+                    <h3>Modern Library</h3>
+                </div>
+                <div class="gallery-item" data-category="students">
+                    <img src="assets/images/student1.jpg" alt="Students">
+                    <h3>Student Activities</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Aurelia Heights School. All rights reserved.</p>
+    </footer>
+
+    <script src="js/gallery.js"></script>
+    <script src="js/gallery-filter.js"></script>
+</body>
+</html>

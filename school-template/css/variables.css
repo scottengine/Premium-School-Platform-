@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #667eea;
+    --secondary-color: #764ba2;
+    --accent-color: #f39c12;
+    --dark-color: #2c3e50;
+    --light-color: #ecf0f1;
+    --text-color: #333;
+    --border-radius: 5px;
+    --transition: all 0.3s ease;
+}
+
+/* Light mode */
+body {
+    background-color: #fff;
+    color: var(--text-color);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1a1a1a;
+        color: #e0e0e0;
+    }
+    
+    .feature-card, .news-card {
+        background-color: #2a2a2a;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+        background-color: #2a2a2a;
+        color: #e0e0e0;
+        border-color: #444;
+    }
+}
