@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Lira Future Academy</title>
+<meta name="description" content="Campus, classrooms, sports, arts and student life at Lira Future Academy — the full photo gallery.">
+<meta name="theme-color" content="#1D392B">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gallery — Lira Future Academy">
+<meta property="og:description" content="Campus, classrooms, sports, arts and student life at Lira Future Academy.">
+<meta property="og:url" content="https://www.lirafutureacademy.edu/gallery.html">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/assets/logo/favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://www.lirafutureacademy.edu/gallery.html">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/inner-pages.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ======================= NAVIGATION ======================= -->
+<header class="nav" data-nav data-nav-scrolled="false">
+  <div class="wrap nav__row">
+    <a href="index.html#top" class="nav__brand" aria-label="Lira Future Academy, home">
+      <svg class="nav__crest" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="40" height="40" rx="4" class="crest-bg"/>
+        <path d="M20 8L30 13V20C30 26 25.6 30.9 20 32C14.4 30.9 10 26 10 20V13L20 8Z" class="crest-ring" stroke-width="1.4"/>
+        <text x="20" y="24" text-anchor="middle" font-family="Fraunces, serif" font-size="12" class="crest-mono">LF</text>
+      </svg>
+      <span class="nav__school-name"><span class="nav__school-name-primary">Lira Future</span><small>Academy · Est. 2006</small></span>
+    </a>
+
+    <ul class="nav__links">
+      <li><a href="index.html#top">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="admissions.html">Admissions</a></li>
+      <li><a href="campus-life.html">Campus Life</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="nav__actions">
+      <a href="admissions.html" class="btn btn--primary">Apply Now</a>
+      <button class="nav__toggle" data-nav-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="nav__scrim" data-nav-scrim></div>
+<nav class="nav__mobile-panel" id="mobile-nav" data-nav-panel aria-label="Mobile navigation">
+  <div class="nav__mobile-header">
+    <button class="nav__mobile-close icon-btn" data-nav-close aria-label="Close menu">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M1 1L15 15M15 1L1 15" stroke="currentColor" stroke-width="1.4"/></svg>
+    </button>
+  </div>
+  <ul class="nav__mobile-links">
+    <li><a href="index.html#top">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="academics.html">Academics</a></li>
+    <li><a href="admissions.html">Admissions</a></li>
+    <li><a href="campus-life.html">Campus Life</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="admissions.html" class="btn btn--primary nav__mobile-cta">Apply Now</a>
+</nav>
+
+<main id="main">
+
+  <!-- ======================= PAGE HERO ======================= -->
+  <section class="page-hero">
+    <div class="wrap">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="index.html#top">Home</a></li>
+          <li><span aria-current="page">Gallery</span></li>
+        </ol>
+      </nav>
+      <div class="page-hero__intro">
+        <p class="eyebrow eyebrow--on-ink">Gallery</p>
+        <h1>The Full Gallery</h1>
+        <p class="page-hero__lede">Campus, classrooms, sport, the arts and everyday student life — filter by category or browse everything.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= FILTERS + GRID ======================= -->
+  <section class="section">
+    <div class="wrap reveal">
+      <div class="filter-tabs" data-filter-group=".gallery-masonry .gallery-item" role="group" aria-label="Filter gallery by category">
+        <button class="filter-tab" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter-tab" data-filter="campus" aria-pressed="false">Campus</button>
+        <button class="filter-tab" data-filter="academics" aria-pressed="false">Academics</button>
+        <button class="filter-tab" data-filter="sports" aria-pressed="false">Sports</button>
+        <button class="filter-tab" data-filter="events" aria-pressed="false">Events</button>
+        <button class="filter-tab" data-filter="arts" aria-pressed="false">Arts</button>
+        <button class="filter-tab" data-filter="students" aria-pressed="false">Students</button>
+        <button class="filter-tab" data-filter="community" aria-pressed="false">Community</button>
+      </div>
+
+      <div class="gallery-masonry">
+        <div class="gallery-item" data-category="campus"><a href="#" class="gallery-item__btn" data-gallery-item data-caption="Front campus courtyard" data-variant=""><div class="ph" data-caption="Front campus courtyard" role="img" aria-label="Front campus courtyard"> <img src="/images/view.jpg"></div><span class="gallery-item__label">Front campus courtyard</span></a></div>
+        <div class="gallery-item" data-category="academics"><a href="#" class="gallery-item__btn" data-gallery-item data-caption="Primary classroom" data-variant="ph--warm"><div class="ph ph--warm" data-caption="Primary classroom" role="img" aria-label="Primary classroom"></div><span class="gallery-item__label">Primary classroom</span></a></div>
+        <div class="gallery-item" data-category="sports"><a href="#" class="gallery-item__btn" data-gallery-item data-caption="Basketball court" data-variant="ph--sage"><div class="ph ph--sage" data-caption="Basketball court" role="img" aria-label="Basketball court"></div><span class="gallery-item__label">Basketball court</span></a></div>
+        <div class="gallery-item" data-category="events"><a href="#" class="gallery-item__btn" data-gallery-item data-caption="Founders' Day assembly" data-variant=""><div class="ph" data-caption="Founders' Day assembly" role="img" aria-label="Founders' Day assembly"></div><span class="gallery-item__label">Founders' Day assembly</span></a></div>
+        <div class="gallery-item" data-category="academics"><a href="#" class="gallery-item__btn" data-gallery-item data-caption="Chemistry laboratory" data-variant="ph--warm"><div class="ph ph--warm" data-caption="Chemistry laboratory" role="img" aria-label="Chemistry laboratory"></div><span class="gallery-item__label">Chemistry laboratory</span></a></div>
+        <div class="gallery-item" data-category="campus"><a href="#" class="gallery-item__btn" data-gallery-item data-caption="Library reading room" data-variant=""><div class="ph" data-caption="Library reading room" role="img" aria-label="Library reading room"></div><span class="gallery-item__label">Library reading room</span></a></div>
+        <div class="gallery-item" data-category="arts"><a href="#" class="gallery-item__btn" data-gallery-item data-caption="Art studio" data-variant="ph--sage"><div class="ph ph--sage" data-caption="Art studio" role="img" aria-label="Art studio"></div><span class="gallery-item__label">Art studio</span></a></div>
+        <div class="gallery-item" data-category="arts"><a href="#" class="gallery-item__btn" data-gallery-item data-caption="Music rehearsal room" data-variant="ph--warm"><div class="ph ph--warm" data-caption="Music rehearsal room" role="img" aria-label="Music rehearsal room"></div><span class="gallery-item__label">Music rehearsal room</span></a></div>
+        <div class="gallery-item" data-category="events"><a href="#" class="gallery-item__btn" data-gallery-item data-caption="Graduation day" data-variant=""><div class="ph" data-caption="Graduation day" role="img" aria-label="Graduation day"> <img src="./images/graduation2.jpg"></div><span class="gallery-item__label">Graduation day</span></a></div>
+        <div class="gallery-item" data-category="sports"><a href="#" class="gallery-item__btn" data-gallery-item data-caption="Inter-house athletics" data-variant="ph--sage"><div class="ph ph--sage" data-caption="Inter-house athletics" role="img" aria-label="Inter-house athletics"></div><span class="gallery-item__label">Inter-house athletics</span></a></div>
+        <div class="gallery-item" data-category="students"><a href="#" class="gallery-item__btn" data-gallery-item data-caption="Student council meeting" data-variant=""><div class="ph" data-caption="Student council meeting" role="img" aria-label="Student council meeting"></div><span class="gallery-item__label">Student council meeting</span></a></div>
+        <div class="gallery-item" data-category="sports"><a href="#" class="gallery-item__btn" data-gallery-item data-caption="Football training" data-variant="ph--warm"><div class="ph ph--warm" data-caption="Football training" role="img" aria-label="Football training"></div><span class="gallery-item__label">Football training</span></a></div>
+        <div class="gallery-item" data-category="community"><a href="#" class="gallery-item__btn" data-gallery-item data-caption="Community service day" data-variant="ph--sage"><div class="ph ph--sage" data-caption="Community service day" role="img" aria-label="Community service day"></div><span class="gallery-item__label">Community service day</span></a></div>
+        <div class="gallery-item" data-category="students"><a href="#" class="gallery-item__btn" data-gallery-item data-caption="Debate society session" data-variant=""><div class="ph" data-caption="Debate society session" role="img" aria-label="Debate society session"></div><span class="gallery-item__label">Debate society session</span></a></div>
+        <div class="gallery-item" data-category="campus"><a href="#" class="gallery-item__btn" data-gallery-item data-caption="Science block exterior" data-variant="ph--warm"><div class="ph ph--warm" data-caption="Science block exterior" role="img" aria-label="Science block exterior"></div><span class="gallery-item__label">Science block exterior</span></a></div>
+        <div class="gallery-item" data-category="community"><a href="#" class="gallery-item__btn" data-gallery-item data-caption="Literacy program visit" data-variant=""><div class="ph" data-caption="Literacy program visit" role="img" aria-label="Literacy program visit"></div><span class="gallery-item__label">Literacy program visit</span></a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" data-lightbox aria-hidden="true" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <div class="lightbox__frame" data-lightbox-frame>
+      <button class="lightbox__close icon-btn" data-lightbox-close aria-label="Close image viewer">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M1 1L15 15M15 1L1 15" stroke="currentColor" stroke-width="1.4"/></svg>
+      </button>
+      <button class="lightbox__nav lightbox__nav--prev icon-btn" data-lightbox-prev aria-label="Previous image">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M9 1L2 7L9 13" stroke="currentColor" stroke-width="1.4"/></svg>
+      </button>
+      <div class="ph" data-caption=""></div>
+      <button class="lightbox__nav lightbox__nav--next icon-btn" data-lightbox-next aria-label="Next image">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M5 1L12 7L5 13" stroke="currentColor" stroke-width="1.4"/></svg>
+      </button>
+      <p class="lightbox__caption" data-lightbox-caption></p>
+    </div>
+  </div>
+
+  <!-- ======================= FINAL CTA ======================= -->
+  <section class="section--surface">
+    <div class="wrap reveal" style="text-align:center;">
+      <p class="eyebrow" style="justify-content:center;">Curious What It's Actually Like?</p>
+      <h2 style="margin: var(--space-4) 0 var(--space-6);">Discover Campus Life</h2>
+      <a href="campus-life.html" class="btn btn--primary">Discover Campus Life</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="footer">
+  <div class="wrap footer__top">
+    <div class="footer__brand-col">
+      <div class="footer__brand">
+        <svg class="nav__crest" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="40" height="40" rx="4" class="crest-bg--inverted"/>
+          <path d="M20 8L30 13V20C30 26 25.6 30.9 20 32C14.4 30.9 10 26 10 20V13L20 8Z" class="crest-ring" stroke-width="1.4"/>
+          <text x="20" y="24" text-anchor="middle" font-family="Fraunces, serif" font-size="12" class="crest-mono--inverted">LF</text>
+        </svg>
+        <span class="footer__brand-name">Lira Future Academy</span>
+      </div>
+      <p class="footer__desc">An independent Kampala school offering Early Years through A-Level education, built on academic excellence, character and modern learning.</p>
+      <div class="footer__social">
+        <a href="https://facebook.com" aria-label="Lira Future on Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none"><path d="M15 4h-2a4 4 0 0 0-4 4v3H7v3h2v6h3v-6h2.5l.5-3h-3V8a1 1 0 0 1 1-1h2V4Z" stroke="currentColor" stroke-width="1.3"/></svg></a>
+        <a href="https://instagram.com" aria-label="Lira Future on Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.3"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.3"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="https://twitter.com" aria-label="Lira Future on X" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none"><path d="M4 4L20 20M20 4L4 20" stroke="currentColor" stroke-width="1.3"/></svg></a>
+        <a href="https://youtube.com" aria-label="Lira Future on YouTube" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="18" height="12" rx="3" stroke="currentColor" stroke-width="1.3"/><path d="M11 9.5L15 12L11 14.5V9.5Z" fill="currentColor"/></svg></a>
+      </div>
+    </div>
+
+    <nav aria-label="Academics footer navigation">
+      <p class="footer__heading">Academics</p>
+      <div class="footer__links">
+        <a href="academics.html#programs">Early Years</a>
+        <a href="academics.html#programs">Primary</a>
+        <a href="academics.html#programs">O-Level</a>
+        <a href="academics.html#programs">A-Level</a>
+      </div>
+    </nav>
+
+    <nav aria-label="Explore footer navigation">
+      <p class="footer__heading">Explore</p>
+      <div class="footer__links">
+        <a href="about.html">About Us</a>
+        <a href="campus-life.html">Campus Life</a>
+        <a href="news.html">News &amp; Events</a>
+        <a href="gallery.html">Gallery</a>
+      </div>
+    </nav>
+
+    <nav aria-label="Admissions footer navigation">
+      <p class="footer__heading">Admissions</p>
+      <div class="footer__links">
+        <a href="admissions.html">Apply Now</a>
+        <a href="admissions.html#requirements">Requirements</a>
+        <a href="contact.html">Contact Admissions</a>
+      </div>
+    </nav>
+
+    <div>
+      <p class="footer__heading">Contact</p>
+      <div class="footer__links">
+        <a href="tel:+256772445890">+256 772 445 890</a>
+        <a href="mailto:admissions@lirafutureacademy.edu">admissions@lirafutureacademy.edu</a>
+        <a href="https://wa.me/256772445890" target="_blank" rel="noopener">WhatsApp Us</a>
+        <a href="contact.html">Plot 14, Kira Hill Road, Kampala</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap footer__bottom">
+    <span data-copyright>© <span data-year>2026</span> Lira Future Academy. All rights reserved.</span>
+    <div class="footer__bottom-links">
+      <a href="#" aria-disabled="true" tabindex="-1">Privacy Policy</a>
+      <a href="#" aria-disabled="true" tabindex="-1">Terms of Use</a>
+    </div>
+    <span class="footer__credit">Site by Studio Halyard</span>
+  </div>
+</footer>
+
+<button class="back-to-top icon-btn" data-back-to-top aria-label="Back to top" data-visible="false">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 13V3M3 7L8 2L13 7" stroke="currentColor" stroke-width="1.4"/></svg>
+</button>
+
+<script src="js/config.js"></script>
+<script src="js/navigation.js"></script>
+<script src="js/main.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/gallery-filter.js"></script>
+</body>
+</html>
