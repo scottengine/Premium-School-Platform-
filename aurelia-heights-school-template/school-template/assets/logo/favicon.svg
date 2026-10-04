@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-  <rect width="40" height="40" rx="6" fill="#16213A"/>
-  <path d="M20 8L30 13V20C30 26 25.6 30.9 20 32C14.4 30.9 10 26 10 20V13L20 8Z" stroke="#B4894F" stroke-width="1.6"/>
-  <text x="20" y="24" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#F2EDE3">AH</text>
-</svg>
