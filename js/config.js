@@ -26,8 +26,8 @@ window.SCHOOL_CONFIG = {
   },
 
   contact: {
-    phone: "+256 700 123 456",
-    phoneDisplay: "+256 700 123 456",
+    phone: "+256 770 849 239",
+    phoneDisplay: "+256 770 849 239",
     whatsapp: "+256700123456",
     email: "admissions@aureliaheights.edu",
     address: "Plot 14, Kira Hill Road, Kampala, Uganda",
