@@ -29,7 +29,7 @@ window.SCHOOL_CONFIG = {
     phone: "+256 770 849 239",
     phoneDisplay: "+256 770 849 239",
     whatsapp: "+256700123456",
-    email: "admissions@aureliaheights.edu",
+    email: "scottengine100@gmail.com",
     address: "Plot 14, Kira Hill Road, Kampala, Uganda",
     hoursWeekday: "7:30 AM – 5:00 PM",
     hoursSaturday: "9:00 AM – 1:00 PM (term-time)",
